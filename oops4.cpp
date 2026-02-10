@@ -25,6 +25,28 @@ public:
     }
 };
 
+class Demo
+{
+    int x;
+
+public:
+    Demo()
+    {
+        cout << "Constructor called" << endl;
+        x = 10;
+    }
+
+    void display()
+    {
+        cout << "Value of x = " << x << endl;
+    }
+
+    ~Demo()
+    {
+        cout << "Destructor called" << endl;
+    }
+};
+
 class Student
 {
 public:
@@ -43,10 +65,20 @@ public:
 
 int main()
 {
-    Rectangle r[3] = {Rectangle(), Rectangle(5), Rectangle(4,6)};
+    Rectangle r1;
+    Rectangle r2(5);
+    Rectangle r3(4,6);
 
+    cout << r1.area() << endl;
+    cout << r2.area() << endl;
+    cout << r3.area() << endl;
+
+    Rectangle arrRect[3] = {Rectangle(), Rectangle(5), Rectangle(4,6)};
     for(int i=0;i<3;i++)
-        cout << r[i].area() << endl;
+        cout << arrRect[i].area() << endl;
+
+    Demo d1;
+    d1.display();
 
     int *p = new int;
     *p = 10;
