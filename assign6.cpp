@@ -257,14 +257,14 @@ int main() {
     a4.displayDetails();
     a5.displayDetails();
 
-    cout << "\n===== Q4 =====\n";
+    
     A a(10);
     B b(20);
     Result r = add(a,b);
     cout << "Sum = " << r.sum << endl;
 
 
-    cout << "\n===== Q5 =====\n";
+
     Complex c1(2,3), c2(4,5);
     Complex c3 = sum(c1,c2);
     c3.display();
