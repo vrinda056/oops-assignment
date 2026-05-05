@@ -8,19 +8,19 @@ class Polygon
 public:
     int width;
     int height;
-    void set_values(int w, int h)
+    void setvalues(int w, int h)
     {
         this->width = w;
         this->height = h;
     }
-    virtual void calculate_area() = 0;
+    virtual void calculatearea() = 0;
 };
 
 class Rectangle : public Polygon
 {
 
 public:
-    void calculate_area()
+    void calculatearea()
     {
         cout << width * height << " ";
     }
@@ -29,7 +29,7 @@ public:
 class Triangle : public Polygon
 {
 public:
-    void calculate_area()
+    void calculatearea()
     {
         cout << (height * width) / 2 << " ";
     }
@@ -44,13 +44,13 @@ int main()
 
    
     p = &r;
-    p->set_values(10, 20);
-    p->calculate_area();
+    p->setvalues(10, 20);
+    p->calculatearea();
 
    
     p = &t;
-    p->set_values(10, 20);
-    p->calculate_area();
+    p->setvalues(10, 20);
+    p->calculatearea();
 
     return 0;
 }
