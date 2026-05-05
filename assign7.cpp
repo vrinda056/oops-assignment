@@ -1,5 +1,5 @@
 //q1
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 class Polygon
@@ -55,7 +55,7 @@ int main()
     return 0;
 }
 //q2
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -160,7 +160,7 @@ int main()
     return 0;
 }
 //q3
-#include <iostream>
+#include <bits/stdc++.h>
 #include <cmath>
 using namespace std;
 
@@ -195,7 +195,7 @@ int main()
     return 0;
 }
 //q4
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -298,7 +298,7 @@ int main()
     return 0;
 }
 //q5
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -340,8 +340,7 @@ int main () {
     t3.show();
 }
 //q6
-#include <iostream>
-#include <cstring>
+#include <ibits/stdc++.h>
 using namespace std;
 
 class STRING
@@ -389,7 +388,7 @@ int main()
     s3.display();
 }
 //q7
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Matrix
@@ -443,7 +442,7 @@ int main()
     m3.display();
 }
 //q8
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Array
@@ -476,7 +475,7 @@ int main()
     cout << a[10];
 }
 //q9
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Test
@@ -494,7 +493,7 @@ int main()
     t(1, 2, 3);
 }
 //q10
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Test
@@ -523,7 +522,7 @@ int main()
     cout << t;
 }
 //q11
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Test
@@ -550,7 +549,7 @@ int main()
     t.display();
 }
 //q12
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Test
@@ -576,8 +575,7 @@ int main()
     cout << a;
 }
 //q13
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Polar
